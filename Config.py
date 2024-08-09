@@ -4,7 +4,7 @@ class Config():
     ENV = bool(os.environ.get('ENV', False))
     
     if ENV:
-        BOT_TOKEN = os.environ.get("BOT_TOKEN", "7178053294:AAGtPvT6sQnxbtQmzErdWgt8i-OBW8Z09M0")
+        BOT_TOKEN = os.environ.get("BOT_TOKEN", "7178053294:AAEs52tcI_RaeLSbO8IWCy7houMxr_I5bKk")
         DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://Terez2:Suldan@cluster0.7czxr.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
         APP_ID = int(os.environ.get("APP_ID", 19867363))
         API_HASH = os.environ.get("API_HASH", "c39149b542ef84337e65c6ec6dc07bd3")
@@ -12,7 +12,7 @@ class Config():
         SUDO_USERS.append(939425014)  # Adding a specific Sudo user
         SUDO_USERS = list(set(SUDO_USERS))
     else:
-        BOT_TOKEN = "7178053294:AAGtPvT6sQnxbtQmzErdWgt8i-OBW8Z09M0"
+        BOT_TOKEN = "7178053294:AAEs52tcI_RaeLSbO8IWCy7houMxr_I5bKk"
         DATABASE_URL = "mongodb+srv://Terez2:Suldan@cluster0.7czxr.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
         APP_ID = 19867363
         API_HASH = "c39149b542ef84337e65c6ec6dc07bd3"
